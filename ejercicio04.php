@@ -16,6 +16,14 @@ $matriz1 = [[1, 2], [3, 4]];
 $matriz2 = [['a', 'b'], ['c', 'd']];
 $resultado = productoCartesiano($matriz1, $matriz2);
 
-echo $resultado;
+foreach ($resultado as $fila) {
+    echo '[' . implode(', ', $fila) . ']<br>';
+}
+
+// Resultado:
+// [1, 2, a, b]
+// [1, 2, c, d]
+// [3, 4, a, b]
+// [3, 4, c, d]
 
 ?>

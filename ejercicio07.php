@@ -21,4 +21,7 @@ $resultado = cuentaRegresiva($fechaObjetivo);
 
 echo $resultado;
 
+// Resultado:
+// Faltan 4 días, 23 horas, 0 minutos y 0 segundos.
+
 ?>

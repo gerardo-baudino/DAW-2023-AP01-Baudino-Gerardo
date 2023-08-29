@@ -22,6 +22,9 @@ function fibonacci($n) {
 $n = 10;
 $resultado = fibonacci($n);
 
-echo $resultado;
+echo implode(', ', $resultado);
+
+// Resultado:
+// 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 
 ?>

@@ -12,10 +12,23 @@ function convertirRecursivoMayusculas($array) {
     return $array;
 }
 
+function imprimirArrayRecursivo($array) {
+    foreach ($array as $elemento) {
+        if (is_array($elemento)) {
+            imprimirArrayRecursivo($elemento);
+        } else {
+            echo $elemento . ' ';
+        }
+    }
+}
+
 // Ejemplo de uso
 $array = [['hola', 'mundo'], 'php', ['prueba', 'array']];
 $resultado = convertirRecursivoMayusculas($array);
 
-echo $resultado;
+imprimirArrayRecursivo($resultado);
+
+// Resultado:
+// HOLA MUNDO PHP PRUEBA ARRAY
 
 ?>

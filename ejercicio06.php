@@ -27,4 +27,7 @@ $resultado = evaluarFortalezaContrasena($contrasena);
 
 echo $resultado;
 
+// Resultado:
+// Muy Fuerte
+
 ?>

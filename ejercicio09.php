@@ -54,4 +54,7 @@ $resultado = dineroATexto($importe);
 
 echo $resultado;
 
+// Resultado:
+// mil doscientos treinta y tres pesos con setenta y cinco centavos
+
 ?>

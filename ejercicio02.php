@@ -12,6 +12,12 @@ function convertirMatrizMayusculas($matriz) {
 $matriz = [['hola', 'mundo'], ['esto', 'es', 'una', 'prueba']];
 $resultado = convertirMatrizMayusculas($matriz);
 
-echo $resultado;
+foreach ($resultado as $fila) {
+    echo implode(', ', $fila) . '<br>';
+}
+
+// Resultado:
+// HOLA, MUNDO
+// ESTO, ES, UNA, PRUEBA
 
 ?>

@@ -10,6 +10,9 @@ function convertirMayusculas($array) {
 $array = ['hola', 'mundo', 'php'];
 $resultado = convertirMayusculas($array);
 
-echo $resultado;
+echo implode(', ', $resultado);
+
+// Resultado:
+// HOLA, MUNDO, PHP
 
 ?>

@@ -21,4 +21,7 @@ $resultado = generarContrasena(10);
 
 echo $resultado;
 
+// Resultado:
+// !a7G8bhAqJZ
+
 ?>
